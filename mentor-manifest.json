@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "sourceId": "verve.river-to-road",
+  "name": "River-to-Road",
+  "classification": "civic",
+  "mentorSearchable": true,
+  "audiences": [
+    "elementary",
+    "middle",
+    "high",
+    "higher-learning",
+    "adult",
+    "parent"
+  ],
+  "roles": [
+    "student",
+    "parent",
+    "educator"
+  ],
+  "homepage": "https://vervenveda.com/river_to_road.github.io/",
+  "repository": "vervenveda/river_to_road.github.io",
+  "inventoryAuthority": "provisional-root-anchor",
+  "resources": [
+    {
+      "id": "river-to-road-home",
+      "title": "River-to-Road",
+      "description": "Environmental action, stewardship, community cleanup, citizen-science, educational, and service-learning gateway.",
+      "url": "https://vervenveda.com/river_to_road.github.io/",
+      "audiences": [
+        "elementary",
+        "middle",
+        "high",
+        "higher-learning",
+        "adult",
+        "parent"
+      ],
+      "roles": [
+        "student",
+        "parent",
+        "educator"
+      ],
+      "domains": [
+        "environment",
+        "community-service",
+        "citizen-science",
+        "civic-action",
+        "education"
+      ],
+      "skills": [
+        "environmental-literacy",
+        "service-learning",
+        "observation",
+        "civic-participation"
+      ],
+      "tags": [
+        "river-to-road",
+        "environment",
+        "cleanup",
+        "stewardship",
+        "active-expansion"
+      ],
+      "mentorEligible": true,
+      "featured": false,
+      "resourceType": "hub",
+      "learningValue": "supplemental",
+      "curricularWeight": "supplemental",
+      "requiresFreshnessCheck": true,
+      "dynamicContent": true
+    }
+  ],
+  "mentorNotes": "PROVISIONAL FEDERATION ANCHOR. This repository is under active expansion. The root landing page is the only inventory authority exposed by this manifest at this stage. Do not infer that unlisted child apps, courses, tools, or directories are absent, obsolete, or non-recommendable. Replace this provisional inventory with a verified deep manifest after the repository upgrade pass is complete."
+}
