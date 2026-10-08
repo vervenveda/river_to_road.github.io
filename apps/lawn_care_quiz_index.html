@@ -6,7 +6,7 @@
     <title>Lawn Care Quiz - Thyme to Grow</title>
 
     <!-- Google Font (Montserrat instead of Brandon Grotesque) -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 
     <style>
         body {
@@ -136,9 +136,17 @@
                 font-size: 18px;
             }
         }
-    </style>
+    *{box-sizing:border-box}body{font-family:"Avenir Next","Segoe UI",Arial,sans-serif;line-height:1.5}
+.return-nav{padding:12px 20px;background:#143d35;font-size:16px}.return-nav a{color:#fff}
+.options label{background:#21612b;min-height:48px}.options label:hover{background:#194e23}
+.options input:focus-visible+label{outline:3px solid #f2d786;outline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid #f2d786;outline-offset:3px}
+.options input:checked+label{background:#123b1b;box-shadow:inset 5px 0 #f2d786}
+@media(max-width:560px){body{font-size:18px}.quiz-container{padding:18px;width:calc(100% - 20px)}.question p{font-size:20px}.options label{padding:12px}h1{font-size:28px}}
+</style>
 </head>
 <body>
+    <nav class="return-nav" aria-label="Game navigation"><a href="../index.html#games">← Back to River-to-Road games</a></nav>
 
     <header>
         <h1>Take the Lawn Care Quiz!</h1>
@@ -240,7 +248,7 @@
             <button class="btn-submit" type="button" onclick="submitQuiz()">Submit Quiz</button>
         </div>
 
-        <div id="result" class="result" style="display:none;"></div>
+        <div tabindex="-1" role="status" aria-live="polite" id="result" class="result" style="display:none;"></div>
     </div>
 
     <script>
@@ -294,6 +302,7 @@
                     <button class="btn-submit" type="button" onclick="resetQuiz()">Retake Quiz</button>
                 </div>
             `;
+            resultDiv.focus();
         }
 
         function resetQuiz() {
@@ -309,8 +318,10 @@
             const resultDiv = document.getElementById('result');
             resultDiv.style.display = 'none';
             resultDiv.innerHTML = '';
+            document.querySelector('input[name="q1"]').focus();
         }
     </script>
 
 </body>
 </html>
+

@@ -253,10 +253,18 @@
       .side-panel{font-size:0.85rem;}
       canvas{max-height:340px;}
     }
-  </style>
+  a:focus-visible,button:focus-visible,canvas:focus-visible{outline:3px solid #f2d786;outline-offset:3px}
+.return-nav{margin-bottom:18px;font-size:.9rem}.return-nav a{color:#fff}
+.canvas-wrap{min-width:0}.side-panel{min-width:0}.overlay{overflow:auto;align-items:safe center}.overlay-card{margin:auto}
+.direction-controls{display:grid;grid-template-columns:repeat(3,52px);gap:8px;justify-content:center;margin-top:16px}
+.direction-controls button{min-height:52px;border:1px solid #a5d6a7;border-radius:7px;background:#c8e6c9;color:#143d35;font-size:24px;touch-action:none;user-select:none}
+.direction-controls button:first-child{grid-column:2}.direction-controls button:nth-child(2){grid-column:1}
+@media(max-width:560px){.canvas-wrap{flex-basis:100%;padding:4px}.side-panel{flex-basis:100%}.overlay{position:relative;inset:auto;padding:16px;margin-top:8px}.overlay h2{font-size:1.15rem}.overlay p{font-size:.85rem;margin-block:8px}}
+</style>
 </head>
 <body>
   <div class="game-shell">
+    <nav class="return-nav" aria-label="Game navigation"><a href="../index.html#games">← Back to River-to-Road games</a></nav>
     <header>
       <h1>Virtual Lawn Mower</h1>
       <p>Mow the lawn, dodge obstacles, and earn your <strong>Green Thumb</strong> badge!</p>
@@ -277,12 +285,12 @@
 
     <div class="game-row">
       <div class="canvas-wrap">
-        <canvas id="gameCanvas" width="800" height="480"></canvas>
+        <canvas id="gameCanvas" width="800" height="480" tabindex="0" aria-label="Lawn mowing game. Use arrow keys or the direction buttons to move.">Lawn mowing game: use the direction buttons below.</canvas>
         <!-- overlay will be shown/hidden via JS -->
         <div id="overlay" class="overlay" style="display:flex;">
           <div class="overlay-card">
             <h2>Get Your Mower Ready!</h2>
-            <p>Use the <strong>arrow keys</strong> to drive your mower.<br>
+            <p>Use the <strong>arrow keys or direction buttons</strong> to drive your mower.<br>
               Cut as much grass as you can in <strong>60 seconds</strong> and avoid rocks &amp; trees.</p>
             <button id="startBtn" class="start-btn">Start Mowing</button>
             <p class="notice">Tip: Mow in neat rows for maximum coverage.</p>
@@ -293,12 +301,18 @@
       <aside class="side-panel">
         <h2>How to Play</h2>
         <ul class="controls">
-          <li><strong>Arrow keys</strong> to drive the mower.</li>
+          <li><strong>Arrow keys or direction buttons</strong> to drive the mower.</li>
           <li>Mow over tall grass tiles to earn points.</li>
           <li>Avoid rocks, trees, and puddles – they’ll stop you.</li>
           <li>Fill as much of the lawn as you can before time runs out.</li>
         </ul>
         <button class="start-btn" id="sideStartBtn">Start Game</button>
+        <div class="direction-controls" role="group" aria-label="Mower direction">
+          <button type="button" data-direction="ArrowUp" aria-label="Move up">↑</button>
+          <button type="button" data-direction="ArrowLeft" aria-label="Move left">←</button>
+          <button type="button" data-direction="ArrowDown" aria-label="Move down">↓</button>
+          <button type="button" data-direction="ArrowRight" aria-label="Move right">→</button>
+        </div>
         <p class="notice">
           As you play, watch for new lawn care tips. Perfect for Florida yards – and storm clean-up practice!
         </p>
@@ -415,29 +429,41 @@
     }
 
     // --- Input handling ---
-    window.addEventListener('keydown', (e)=>{
-      if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.code)){
-        e.preventDefault();
+    const directions=["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"];
+    function clearKeys(){directions.forEach(key=>keys[key]=false)}
+    window.addEventListener('keydown',e=>{
+      if(running && directions.includes(e.code) && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)){
+        e.preventDefault(); keys[e.code]=true;
       }
-      keys[e.code] = true;
     });
-
-    window.addEventListener('keyup', (e)=>{
-      keys[e.code] = false;
+    window.addEventListener('keyup',e=>{if(directions.includes(e.code))keys[e.code]=false});
+    window.addEventListener('blur',clearKeys);
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)clearKeys()});
+    document.querySelectorAll('[data-direction]').forEach(button=>{
+      const key=button.dataset.direction;
+      button.addEventListener('pointerdown',e=>{
+        if(!running)return;
+        e.preventDefault();button.setPointerCapture(e.pointerId);keys[key]=true;
+      });
+      ['pointerup','pointercancel','lostpointercapture'].forEach(type=>button.addEventListener(type,()=>keys[key]=false));
+      button.addEventListener('click',e=>{if(running && e.detail===0){keys[key]=true;setTimeout(()=>keys[key]=false,180)}});
     });
 
     // --- Game loop ---
     function startGame(){
+      if(running)return;
+      clearKeys();
       resetGame();
       running = true;
       overlay.style.display = "none";
+      canvas.focus();
       lastTime = performance.now();
       requestAnimationFrame(loop);
     }
 
     function loop(timestamp){
       if(!running) return;
-      const dt = (timestamp - lastTime)/1000;
+      const dt = Math.min((timestamp - lastTime)/1000,0.1);
       lastTime = timestamp;
 
       update(dt);
@@ -454,7 +480,10 @@
       if(timeLeft <= 0){
         timeLeft = 0;
         running = false;
+        clearKeys();
+        timeEl.textContent = "0";
         showEndOverlay();
+        return;
       }
       timeEl.textContent = Math.ceil(timeLeft);
 
@@ -656,13 +685,10 @@
       `;
       overlay.style.display = "flex";
 
+      document.getElementById('playAgainBtn').focus();
       // reattach play again handler
       document.getElementById('playAgainBtn').addEventListener('click', ()=>{
-        running = true;
-        overlay.style.display = "none";
-        resetGame();
-        lastTime = performance.now();
-        requestAnimationFrame(loop);
+        startGame();
       });
     }
 
@@ -685,3 +711,4 @@
   </script>
 </body>
 </html>
+

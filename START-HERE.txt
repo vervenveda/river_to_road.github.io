@@ -1,0 +1,21 @@
+RIVER-TO-ROAD · AUDITED REPAIRS
+
+Status: tested locally; GitHub and the live page are unchanged.
+Target: https://github.com/vervenveda/river_to_road.github.io
+Baseline main: 6b66a6065c1f18dfebad158262d8c6ef7c66d3f9
+
+To apply using GitHub:
+1. Extract this ZIP.
+2. Confirm main has no newer edits affecting these three files.
+3. In the repository root, choose Add file > Upload files.
+4. Upload index.html and the apps folder from this package, preserving paths.
+   These replace only the gateway and its two local games.
+5. Optionally upload docs for the audit report and evidence.
+6. Commit to main with: Repair River-to-Road usability, calendar, and local games.
+7. Wait for GitHub Pages deployment, then check the live page and both games.
+
+Do not upload this instruction file, SHA256SUMS.txt, or previews.
+Do not replace unrelated repository files. This is a repair package, not a complete repository backup.
+
+The docs audit explains external links still unverified due to restrictions,
+timeouts, or server errors. An HTTP 200 does not certify external gameplay.

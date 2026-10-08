@@ -1,0 +1,399 @@
+{
+  "notice": "Initial baseline GET checks. See audit for repairs and limits; restricted responses are not confirmed broken links.",
+  "results": [
+    {
+      "url": "https://350.org/",
+      "status": 200,
+      "final": "https://350.org/"
+    },
+    {
+      "url": "https://act.audubon.org/",
+      "status": 200,
+      "final": "https://act.audubon.org/User/UnAuthenticated"
+    },
+    {
+      "url": "https://act.biologicaldiversity.org/",
+      "status": 200,
+      "final": "https://act.biologicaldiversity.org/User/UnAuthenticated"
+    },
+    {
+      "url": "https://act.sierraclub.org/events/",
+      "status": 200,
+      "final": "https://act.sierraclub.org/events/"
+    },
+    {
+      "url": "https://adp.noaa.gov/games/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://apnews.com/hub/climate-and-environment",
+      "status": 200,
+      "final": "https://apnews.com/climate-and-environment"
+    },
+    {
+      "url": "https://citizensclimatelobby.org/",
+      "status": 200,
+      "final": "https://citizensclimatelobby.org/"
+    },
+    {
+      "url": "https://climatekids.nasa.gov/",
+      "status": 200,
+      "final": "https://science.nasa.gov/kids/earth/"
+    },
+    {
+      "url": "https://e360.yale.edu/",
+      "status": 200,
+      "final": "https://e360.yale.edu/"
+    },
+    {
+      "url": "https://earthjustice.org/action",
+      "status": 200,
+      "final": "https://earthjustice.org/action"
+    },
+    {
+      "url": "https://earthobservatory.nasa.gov/",
+      "status": 200,
+      "final": "https://science.nasa.gov/earth/earth-observatory/"
+    },
+    {
+      "url": "https://ebird.org/",
+      "status": 200,
+      "final": "https://ebird.org/home"
+    },
+    {
+      "url": "https://education.nationalgeographic.org/",
+      "status": 200,
+      "final": "https://education.nationalgeographic.org/"
+    },
+    {
+      "url": "https://forms.gle/2BVETYTH1gznf1ZG8",
+      "status": 200,
+      "final": "https://docs.google.com/forms/d/e/1FAIpQLSf2lSFz3Uh8QKHwSQxU1uvk4azVaxXjNTWty9vAVRpOsPeM-w/closedform"
+    },
+    {
+      "url": "https://insideclimatenews.org/",
+      "status": 200,
+      "final": "https://insideclimatenews.org/"
+    },
+    {
+      "url": "https://jenniferpearl2028.com/campaign/",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "url": "https://kab.org/find-an-affiliate/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marinedebris.noaa.gov/",
+      "status": 200,
+      "final": "https://marinedebris.noaa.gov/"
+    },
+    {
+      "url": "https://news.mongabay.com/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://oceanconservancy.org/",
+      "status": 200,
+      "final": "https://oceanconservancy.org/"
+    },
+    {
+      "url": "https://oceanconservancy.org/trash-free-seas/international-coastal-cleanup/",
+      "status": 200,
+      "final": "https://oceanconservancy.org/work/plastics/cleanups-icc/"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/kids/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/news/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://science.nasa.gov/earth/",
+      "status": 200,
+      "final": "https://science.nasa.gov/earth/"
+    },
+    {
+      "url": "https://vervenveda.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/"
+    },
+    {
+      "url": "https://vervenveda.github.io/Arshif.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/Arshif.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/Khaemenes_Academy.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/Khaemenes_Academy.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/arcade.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/arcade.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/arcade.github.io/a_critter_crafter_game_index.html",
+      "status": 200,
+      "final": "https://vervenveda.com/arcade.github.io/a_critter_crafter_game_index.html"
+    },
+    {
+      "url": "https://vervenveda.github.io/arcade.github.io/a_permafrost_escape_game_index.html",
+      "status": 200,
+      "final": "https://vervenveda.com/arcade.github.io/a_permafrost_escape_game_index.html"
+    },
+    {
+      "url": "https://vervenveda.github.io/arcade.github.io/games/kids/prek_waether_match_index.html",
+      "status": 200,
+      "final": "https://vervenveda.com/arcade.github.io/games/kids/prek_waether_match_index.html"
+    },
+    {
+      "url": "https://vervenveda.github.io/bazaarart.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/bazaarart.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/medicament-hub.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/medicament-hub.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/onenationforall.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/onenationforall.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/solanar.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/solanar.github.io/"
+    },
+    {
+      "url": "https://vervenveda.github.io/solanar.github.io/apps/Solanar_kids_skylab_index.html",
+      "status": 200,
+      "final": "https://vervenveda.com/solanar.github.io/apps/Solanar_kids_skylab_index.html"
+    },
+    {
+      "url": "https://vervenveda.github.io/solanar.github.io/apps/environmental_news_index.html",
+      "status": 200,
+      "final": "https://vervenveda.com/solanar.github.io/apps/environmental_news_index.html"
+    },
+    {
+      "url": "https://vervenveda.github.io/theverifier.github.io/",
+      "status": 200,
+      "final": "https://vervenveda.com/theverifier.github.io/"
+    },
+    {
+      "url": "https://waterkeeper.org/find-a-waterkeeper/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://worldriversday.com/",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://worldriversday.com/updates/",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://www.airnow.gov/",
+      "status": 200,
+      "final": "https://www.airnow.gov/"
+    },
+    {
+      "url": "https://www.arborday.org/celebrate/ways-to-celebrate",
+      "status": 200,
+      "final": "https://www.arborday.org/celebrate/ways-to-celebrate"
+    },
+    {
+      "url": "https://www.congress.gov/",
+      "status": 200,
+      "final": "https://www.congress.gov/"
+    },
+    {
+      "url": "https://www.earthday.org/",
+      "status": 200,
+      "final": "https://www.earthday.org/"
+    },
+    {
+      "url": "https://www.earthday.org/earth-day-2026/",
+      "status": 200,
+      "final": "https://www.earthday.org/earth-day-2026/"
+    },
+    {
+      "url": "https://www.epa.gov/enviroatlas",
+      "status": 200,
+      "final": "https://www.epa.gov/enviroatlas"
+    },
+    {
+      "url": "https://www.epa.gov/newsroom",
+      "status": 200,
+      "final": "https://www.epa.gov/newsroom"
+    },
+    {
+      "url": "https://www.epa.gov/recycle",
+      "status": 200,
+      "final": "https://www.epa.gov/recycle"
+    },
+    {
+      "url": "https://www.epa.gov/students",
+      "status": 200,
+      "final": "https://www.epa.gov/students"
+    },
+    {
+      "url": "https://www.epa.gov/students/community-service-project-ideas-students-and-educators",
+      "status": 200,
+      "final": "https://www.epa.gov/students/community-service-environmental-project-ideas-students-and-educators"
+    },
+    {
+      "url": "https://www.epa.gov/students/games-quizzes-and-videos-about-environment",
+      "status": 200,
+      "final": "https://www.epa.gov/students/games-quizzes-and-videos-about-environment"
+    },
+    {
+      "url": "https://www.floridastateparks.org/events",
+      "status": 200,
+      "final": "https://www.floridastateparks.org/events"
+    },
+    {
+      "url": "https://www.floridastateparks.org/volunteers",
+      "status": 200,
+      "final": "https://www.floridastateparks.org/volunteers"
+    },
+    {
+      "url": "https://www.globalforestwatch.org/",
+      "status": 200,
+      "final": "https://globalnaturewatch.org/"
+    },
+    {
+      "url": "https://www.inaturalist.org/",
+      "status": 200,
+      "final": "https://www.inaturalist.org/"
+    },
+    {
+      "url": "https://www.keeppascobeautiful.org/kpb-cleanup",
+      "status": 200,
+      "final": "https://www.keeppascobeautiful.org/kpb-cleanup"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/news",
+      "status": 200,
+      "final": "https://www.ncei.noaa.gov/news"
+    },
+    {
+      "url": "https://www.neefusa.org/npld-event-search",
+      "status": 200,
+      "final": "https://www.neefusa.org/npld-event-search"
+    },
+    {
+      "url": "https://www.noaa.gov/education",
+      "status": 200,
+      "final": "https://www.noaa.gov/education"
+    },
+    {
+      "url": "https://www.nps.gov/getinvolved/volunteer.htm",
+      "status": 200,
+      "final": "https://www.nps.gov/getinvolved/volunteer.htm"
+    },
+    {
+      "url": "https://www.plt.org/",
+      "status": 200,
+      "final": "https://www.plt.org/"
+    },
+    {
+      "url": "https://www.projectwet.org/",
+      "status": 200,
+      "final": "https://www.projectwet.org/"
+    },
+    {
+      "url": "https://www.regulations.gov/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.sierraclub.org/take-action",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/biological-diversity-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/clean-air-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/cleanup-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/end-food-waste-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/environment-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/forests-and-trees-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/list-days-weeks",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/oceans-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/ozone-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/water-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/world-wetlands-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/world-wildlife-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.un.org/en/observances/zero-waste-day",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.unep.org/news-and-stories",
+      "status": 200,
+      "final": "https://www.unep.org/news-and-stories"
+    },
+    {
+      "url": "https://www.usgs.gov/mission-areas/ecosystems/news",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.usgs.gov/products/data/real-time-data",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.volunteer.gov/s/",
+      "status": 200,
+      "final": "https://www.volunteer.gov/s/"
+    },
+    {
+      "url": "https://www.volunteercleanup.org/event/",
+      "status": 200,
+      "final": "https://www.volunteercleanup.org/event/events-lists"
+    },
+    {
+      "url": "https://www.waterqualitydata.us/",
+      "status": 200,
+      "final": "https://www.waterqualitydata.us/"
+    }
+  ]
+}
