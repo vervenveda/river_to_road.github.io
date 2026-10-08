@@ -1,0 +1,1551 @@
+[
+  {
+    "width": 280,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "width": 560,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "width": 561,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "width": 760,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 840,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 900,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1120,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1199,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1200,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "rows": [
+      {
+        "grid": ".path-grid",
+        "rows": [
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".game-grid",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".event-grid",
+        "rows": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "grid": ".finder-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".news-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".resource-grid",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "grid": ".network-grid",
+        "rows": [
+          5,
+          5
+        ]
+      },
+      {
+        "grid": ".safety-grid",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ]
+  }
+]

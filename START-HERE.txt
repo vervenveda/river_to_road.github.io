@@ -1,21 +1,18 @@
-RIVER-TO-ROAD · AUDITED REPAIRS
+RIVER-TO-ROAD · BALANCED GRIDS · REVISION 2
 
-Status: tested locally; GitHub and the live page are unchanged.
+The latest change is in index.html only.
 Target: https://github.com/vervenveda/river_to_road.github.io
-Baseline main: 6b66a6065c1f18dfebad158262d8c6ef7c66d3f9
+Baseline main: 0d7ef34e1e884ba0fdae80b60bcd14ee24cda9c2
 
-To apply using GitHub:
 1. Extract this ZIP.
-2. Confirm main has no newer edits affecting these three files.
-3. In the repository root, choose Add file > Upload files.
-4. Upload index.html and the apps folder from this package, preserving paths.
-   These replace only the gateway and its two local games.
-5. Optionally upload docs for the audit report and evidence.
-6. Commit to main with: Repair River-to-Road usability, calendar, and local games.
-7. Wait for GitHub Pages deployment, then check the live page and both games.
+2. Open your repository on main and upload the root index.html to replace the existing root index.html.
+3. Suggested commit: Balance card grids and buttons; repair campaign link; add Recycle City.
+4. Wait for GitHub Pages deployment, refresh the live page, and check the action, games, event finders, news, and network sections.
 
-Do not upload this instruction file, SHA256SUMS.txt, or previews.
-Do not replace unrelated repository files. This is a repair package, not a complete repository backup.
+The apps folder is unchanged from your current main and is included for checkpoint completeness. You do not need to upload it again.
+Do not upload START-HERE.txt, SHA256SUMS.txt, or the previews folder.
+Read docs/grid-balance-r2-2026-10-08.md for the current report.
 
-The docs audit explains external links still unverified due to restrictions,
-timeouts, or server errors. An HTTP 200 does not certify external gameplay.
+The updated page has aligned card buttons, two rows of five cards in the event-finder/news/network sections on wide desktops, 12 games arranged in complete rows, and a verified Jennifer Pearl 2028 campaign link.
+
+The new changes are tested locally; they are not yet published.
